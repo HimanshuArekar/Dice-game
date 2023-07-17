@@ -1,0 +1,52 @@
+body{
+  background-color: #D8C4B6;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
+.container{
+  color: #4F709C;
+  text-shadow: 3px 2px 3px #213555;
+}
+#refresh{
+  color: green;
+}
+.heading{
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-top: 90px;
+}
+.result{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 2px;
+  margin: 0px;
+  font-size: 2rem;
+}
+.players{
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-size: 2rem; 
+}
+.player1{
+  padding-right: 100px;
+  color: red;
+}
+.player2{
+  color: yellow;
+  padding-left: 100px;
+}
+
+footer{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
