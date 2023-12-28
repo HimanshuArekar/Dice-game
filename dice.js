@@ -12,7 +12,9 @@ img1.setAttribute("src","./images/dice"+palyer1+".png" );
 img2.setAttribute("src","./images/dice"+palyer2+".png" );
 
 
-
+function load(){
+  location.reload()
+}
 
 // THE game conditon logic
 if (palyer1 === palyer2) {
